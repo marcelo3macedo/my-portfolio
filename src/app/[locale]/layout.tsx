@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { getFontClass } from "@/configs/fonts";
 import React from "react";
+import { getFontClass } from "@/configs/fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -10,13 +10,15 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params: { locale },
 }: Readonly<{
   children: React.ReactNode;
+  params: { locale: string };
 }>) {
   const fontClass = getFontClass();
 
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body className={fontClass}>{children}</body>
     </html>
   );
