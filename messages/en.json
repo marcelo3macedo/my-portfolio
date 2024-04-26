@@ -8,6 +8,20 @@
       "contactMe": "Contact Me"
     }
   },
+  "highlight": {
+    "experience": {
+      "title": "High Experience",
+      "description": "With over a decade of experience, affinity with E-commerce platforms, Chatbots, and Business Intelligence."
+    },
+    "usage": {
+      "title": "Various Technologies",
+      "description": "Proficient in Node.js, PHP, JavaScript, TypeScript, React, and more. Focus on code quality and principles like Solid and Clean Code."
+    },
+    "projects": {
+      "title": "Worked Projects",
+      "description": "Improvements in code structure, integration between services, enhancement of infrastructure on AWS, among other initiatives to ensure efficiency and scalability."
+    }
+  },
   "locales": {
     "pt": "Portuguese",
     "en": "English"

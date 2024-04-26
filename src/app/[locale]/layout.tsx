@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { NextIntlClientProvider, useMessages } from "next-intl";
 import React from "react";
 import { getFontClass } from "@/configs/fonts";
+import { listLocales } from "@/configs/locales";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,14 +18,19 @@ export default function RootLayout({
   params: { locale: string };
 }>) {
   const fontClass = getFontClass();
+  const messages = useMessages();
 
   return (
     <html lang={locale}>
-      <body className={fontClass}>{children}</body>
+      <body className={fontClass}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          {children}
+        </NextIntlClientProvider>
+      </body>
     </html>
   );
 }
 
 export async function generateStaticParams() {
-  return [{ locale: "pt" }, { locale: "en" }];
+  return listLocales.map(x => ({ locale: x }));
 }
