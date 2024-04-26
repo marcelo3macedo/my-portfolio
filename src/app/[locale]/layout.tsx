@@ -23,3 +23,7 @@ export default function RootLayout({
     </html>
   );
 }
+
+export async function generateStaticParams() {
+  return [{ locale: "pt" }, { locale: "en" }];
+}
