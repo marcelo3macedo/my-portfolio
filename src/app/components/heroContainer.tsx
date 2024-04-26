@@ -1,10 +1,13 @@
+"use client";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import LanguageSelector from "./languageSelector/main";
 import profile from "@/assets/images/profile.jpeg";
+import useHero from "@/hooks/useHero";
 
 export default function HeroContainer() {
   const t = useTranslations("hero");
+  const { cvHandler, getMailLink } = useHero();
 
   return (
     <section className="py-10 md:py-10">
@@ -12,7 +15,10 @@ export default function HeroContainer() {
         <nav className="flex items-center justify-between mb-20">
           <LanguageSelector />
 
-          <button className="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">
+          <button
+            className="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500"
+            onClick={cvHandler}
+          >
             {t("actions.seeCV")}
           </button>
         </nav>
@@ -41,7 +47,7 @@ export default function HeroContainer() {
           </p>
 
           <a
-            href="#"
+            href={getMailLink()}
             className="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500"
           >
             {t("actions.contactMe")}
