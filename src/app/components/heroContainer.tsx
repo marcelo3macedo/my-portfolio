@@ -26,6 +26,7 @@ export default function HeroContainer() {
         <div className="text-center">
           <div className="flex justify-center mb-16">
             <Image
+              unoptimized
               className="rounded-full max-w-60"
               src={profile.src}
               alt={t("name")}

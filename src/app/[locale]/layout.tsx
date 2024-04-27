@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { NextIntlClientProvider, useMessages } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 import React from "react";
 import { getFontClass } from "@/configs/fonts";
 import { listLocales } from "@/configs/locales";
@@ -19,6 +20,7 @@ export default function RootLayout({
 }>) {
   const fontClass = getFontClass();
   const messages = useMessages();
+  unstable_setRequestLocale(locale);
 
   return (
     <html lang={locale}>
