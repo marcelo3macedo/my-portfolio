@@ -22,6 +22,44 @@
       "description": "Melhorias em estrutura de códigos, integração entre serviços, aprimoramento da infraestrutura na AWS, além de outras iniciativas para garantir eficiência e escalabilidade."
     }
   },
+  "education": {
+    "title": "Educação",
+    "description": "Resumo de cursos, bootcamps, certificações e instituições",
+    "seeDetails": "Ver mais detalhes",
+    "type": {
+      "postGraduation": "Pós-graduação"
+    },
+    "uspeng": {
+      "title": "MBA USP/Esalq (2023-2025)",
+      "description": "Pós-graduação em Engenharia de Software, com ênfase em metodologias ágeis, desenvolvimento de software orientado a objetos e práticas DevOps.",
+      "keywords": "Arquitetura Limpa|CI/CD|DevOps|Metologias ágeis|Qualidade Código"
+    },
+    "pluralsight": {
+      "title": "Certificações Pluralsight (2023)",
+      "description": "Certificações que validam minha proficiência abrangente em tecnologias-chave para o desenvolvimento de soluções de software avançadas.",
+      "keywords": "Aprendizado de Máquina|Javascript|VueJS"
+    },
+    "rocketseat": {
+      "title": "Bootcamp Rocketseat (2023)",
+      "description": "Adquiri habilidades abrangentes em desenvolvimento de aplicações web e móveis utilizando as tecnologias.",
+      "keywords": "React|React Native|Node.js"
+    },
+    "udemy": {
+      "title": "Plataforma Udemy (-)",
+      "description": "Cursos realizados para especialização na plataforma Udemy",
+      "keywords": "Javascript ES6|Python|Django|Github|Laravel|React"
+    },
+    "ufscar": {
+      "title": "Pós-gradução UFSCar (2016-2017)",
+      "description": "Pós-graduação em Desenvolvimento de aplicações Web, Estudo de conceitos e práticas ágeis no processo de desenvolvimento de web, análise de arquiteturas, ferramentas e melhores práticas no desenvolvimento de sistemas.",
+      "keywords": "Tailwind|NextJS|Java|Scrum|Kanban|Arquitetura Software|React Native"
+    },
+    "alura": {
+      "title": "Plataforma Alura (-)",
+      "description": "Adquiri habilidades abrangentes em desenvolvimento de aplicações web e móveis utilizando as tecnologias.",
+      "keywords": "NodeJS|Autenticação React|Typescript|Tailwind|NextJS|Eslint"
+    }
+  },
   "locales": {
     "pt": "Português",
     "en": "Inglês"
