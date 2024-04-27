@@ -22,4 +22,43 @@ const highlights = [
   },
 ];
 
-export { highlights };
+const education = [
+  {
+    title: "uspeng.title",
+    description: "uspeng.description",
+    keywords: "uspeng.keywords",
+    link: "https://mbauspesalq.com/cursos/mba-em-engenharia-de-software",
+  },
+  {
+    title: "pluralsight.title",
+    description: "pluralsight.description",
+    keywords: "pluralsight.keywords",
+    link: "https://app.pluralsight.com/profile/marcelo3macedo",
+  },
+  {
+    title: "rocketseat.title",
+    description: "rocketseat.description",
+    keywords: "rocketseat.keywords",
+    link: "https://www.rocketseat.com.br",
+  },
+  {
+    title: "ufscar.title",
+    description: "ufscar.description",
+    keywords: "ufscar.keywords",
+    link: "https://www.latosensudc.ufscar.br/institucional/equipe",
+  },
+  {
+    title: "udemy.title",
+    description: "udemy.description",
+    keywords: "udemy.keywords",
+    link: "https://www.udemy.com",
+  },
+  {
+    title: "alura.title",
+    description: "alura.description",
+    keywords: "alura.keywords",
+    link: "https://www.alura.com.br",
+  },
+];
+
+export { highlights, education };
