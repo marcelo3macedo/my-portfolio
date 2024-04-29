@@ -14,12 +14,12 @@
       "description": "Com mais de uma década de experiência, afinidade com plataformas E-commerces, Chatbots e Business Intelligence."
     },
     "usage": {
-      "title": "Diversas Tecnologias",
-      "description": "Proficiente em NodeJS, PHP, Javascript, Typescript, React e mais. Foco em qualidade de código e princípios como Solid e Clean Code."
+      "title": "Soft Skills",
+      "description": "Comunicação eficaz, trabalho em equipe, resolução de problemas, criatividade, pensamento crítico, flexibilidade, adaptabilidade, empatia, gestão do tempo"
     },
     "projects": {
-      "title": "Projetos Trabalhados",
-      "description": "Melhorias em estrutura de códigos, integração entre serviços, aprimoramento da infraestrutura na AWS, além de outras iniciativas para garantir eficiência e escalabilidade."
+      "title": "Impactos no Projetos Trabalhados",
+      "description": "Melhorias em estrutura de códigos, aprimoração de integração entre serviços, melhoria da infraestrutura na AWS, além de outras iniciativas que garantem, qualidade eficiência e escalabilidade."
     }
   },
   "education": {
@@ -54,10 +54,10 @@
       "description": "Pós-graduação em Desenvolvimento de aplicações Web, Estudo de conceitos e práticas ágeis no processo de desenvolvimento de web, análise de arquiteturas, ferramentas e melhores práticas no desenvolvimento de sistemas.",
       "keywords": "Tailwind|NextJS|Java|Scrum|Kanban|Arquitetura Software|React Native"
     },
-    "alura": {
-      "title": "Plataforma Alura (-)",
-      "description": "Adquiri habilidades abrangentes em desenvolvimento de aplicações web e móveis utilizando as tecnologias.",
-      "keywords": "NodeJS|Autenticação React|Typescript|Tailwind|NextJS|Eslint"
+    "others": {
+      "title": "Estudos complementares",
+      "description": "Habilidades e estudos realizados a parte com o foco de atualização através de livros e outros conteúdos.",
+      "keywords": "Código Limpo|Testes Unitários|Typescript|Hooks|Caching|Uso de Memória|Docker|Kubernetes|Comunicação entre serviços|LLMs|Stable Diffusion"
     }
   },
   "locales": {
