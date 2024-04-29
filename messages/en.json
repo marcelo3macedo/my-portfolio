@@ -14,11 +14,11 @@
       "description": "With over a decade of experience, affinity with E-commerce platforms, Chatbots, and Business Intelligence."
     },
     "usage": {
-      "title": "Various Technologies",
-      "description": "Proficient in Node.js, PHP, JavaScript, TypeScript, React, and more. Focus on code quality and principles like Solid and Clean Code."
+      "title": "Soft Skills",
+      "description": "Effective communication, teamwork, problem-solving, creativity, critical thinking, flexibility, adaptability, empathy, time management"
     },
     "projects": {
-      "title": "Worked Projects",
+      "title": "Impact on Worked Projects",
       "description": "Improvements in code structure, integration between services, enhancement of infrastructure on AWS, among other initiatives to ensure efficiency and scalability."
     }
   },
@@ -54,10 +54,10 @@
       "description": "Post-Graduation in Web Application Development, Study of agile concepts and practices in web development process, analysis of architectures, tools, and best practices in system development.",
       "keywords": "Tailwind|NextJS|Java|Scrum|Kanban|Software Architecture|React Native"
     },
-    "alura": {
-      "title": "Alura Platform (-)",
-      "description": "Acquired comprehensive skills in web and mobile application development using cutting-edge technologies.",
-      "keywords": "NodeJS|React Authentication|Typescript|Tailwind|NextJS|Eslint"
+    "others": {
+      "title": "Complementary Studies",
+      "description": "Skills and studies carried out separately with the focus on updating through books and other content.",
+      "keywords": "Clean Code|Unit Testing|Typescript|Hooks|Caching|Memory Usage|Docker|Kubernetes|Communication between services|LLMs|Stable Diffusion"
     }
   },
   "locales": {

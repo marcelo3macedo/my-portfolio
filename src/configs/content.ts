@@ -54,10 +54,10 @@ const education = [
     link: "https://www.udemy.com",
   },
   {
-    title: "alura.title",
-    description: "alura.description",
-    keywords: "alura.keywords",
-    link: "https://www.alura.com.br",
+    title: "others.title",
+    description: "others.description",
+    keywords: "others.keywords",
+    link: "https://github.com/marcelo3macedo",
   },
 ];
 
