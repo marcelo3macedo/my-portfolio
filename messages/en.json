@@ -70,6 +70,27 @@
         "tools": "The project was developed in Next.js, using the Tailwind CSS framework for page styling. For internationalization, the next-intl tool was used, applied to the project's routes.",
         "pipeline": "It has a integration pipeline with GitHub, where when the main branch is updated, the code is automatically updated at:",
         "development": "The development process followed the Scrum model, and all changes were logged through Pull Requests, detailed at:"
+      },
+      "memo": {
+        "title": "Memorized",
+        "intro": "Flashcard application to assist in your studies for memorizing information.",
+        "details": "With a gallery of flashcards where users have access to various topics that can be cloned and implemented according to their studies.",
+        "types": "In its development, a structure was used that includes microservices assisting an API, a frontend, and a mobile application. Some of the technologies used: Clean Code, Message Queue Communication, Docker, Redis Cache, NodeJS, and React.",
+        "link": "Mobile app available at:"
+      },
+      "abcshow": {
+        "title": "Abc Show!",
+        "intro": "An educational app created with activities that help children learn words in a fun and engaging way.",
+        "details": "It presents activities to enhance the child's ability to match images with words. The app also provides activities to enhance knowledge and understanding of syllables in words. The child will be able to form the word corresponding to the image by joining the syllables in the correct order and also identify which animal or object starts with a certain syllable.",
+        "types": "Additionally, the app offers virtual rewards, the release of virtual pets, to keep children motivated and engaged in their learning journey.",
+        "link": "Mobile app available at:"
+      },
+      "customup": {
+        "title": "CustomUP!",
+        "intro": "E-commerce platform that allows users to create customized accessories.",
+        "details": "Developing functionalities for administrative control, product upload, definition of painting area, image selection, file upload, and text addition.",
+        "types": "Integration was done with ERP, payment, and shipping API. Possibility of generating and controlling reports for product orders.",
+        "link": "Explanatory video of the tool:"
       }
     },
     "action": {

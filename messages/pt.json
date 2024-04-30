@@ -70,6 +70,27 @@
         "tools": "O projeto foi desenvolvimento em NextJS, utilizando o framework tailwind para estilização da página. Para a internacionalização foi utilizado a ferramenta next-intl sendo aplicadas nas rotas da ferramenta.",
         "pipeline": "Possui uma pipeline de integração com o Github, onde quando a ramificação principal é atualizada, automaticamente o código também será atualizado em:",
         "development": "O processo de desenvolvimento seguiu o modelo Scrum e todas as alterações foram registradas através de Pull-Requests, sendo detalhadas em:"
+      },
+      "memo": {
+        "title": "Memorizou",
+        "intro": "Aplicação de flashcards para auxiliar em seus estudos para a memorização de informações.",
+        "details": "Com uma galeria de flashcards onde os usuários tem acesso a diversos temas que pode serem clonados e implementados conforme seus estudos.",
+        "types": "Em seu desenvolvimento foi utilizado uma estrutura que conta com microserviços auxiliando uma API, um frontend, um aplicativo Mobile. Algumas das tecnologias utilizadas: Código Limpo, Comunicação por fila, Docker, Cache com Redis, NodeJS e React",
+        "link": "Aplicativo mobile disponível em:"
+      },
+      "abcshow": {
+        "title": "Abc Show!",
+        "intro": "Um aplicativo educativo criado com atividades que auxiliam as crianças no aprendizado de palavras de maneira divertida e envolvente.",
+        "details": "Apresenta atividades para evoluir a capacidade da criança de assimilar imagens a palavras. O aplicativo também fornece atividades para evoluir o conhecimento e o entendimento de sílabas nas palavras. A criança poderá formar a palavra referente a imagem juntando as sílabas na ordem correta e também identificar qual animal ou objeto começa com uma determinada sílaba.",
+        "types": "Além disso, o aplicativo oferece recompensas virtuais, a libertação de bichinhos virtuais, para manter as crianças motivadas e engajadas em sua jornada de aprendizado.",
+        "link": "Aplicativo mobile disponível em:"
+      },
+      "customup": {
+        "title": "CustomUP!",
+        "intro": "Plataforma e-commerce que permite a criação de acessórios customizados pelo seus usuários.",
+        "details": "Desenvolvimento funcionalidades para controle administrativo, upload de produtos, definição da área de pintura, escolha de imagens, upload de arquivos e adicão de textos.",
+        "types": "Foi realizado integração com a API de ERP, pagamento e frete. Possibilidade de geração e controle de relatórios para pedidos de produtos.",
+        "link": "Vídeo explicativo da ferramenta:"
       }
     },
     "action": {
