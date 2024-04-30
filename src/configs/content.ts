@@ -61,4 +61,26 @@ const education = [
   },
 ];
 
-export { highlights, education };
+const projects = [
+  {
+    title: "list.portfolio.title",
+    contents: [
+      { type: "text", value: "list.portfolio.intro" },
+      { type: "text", value: "list.portfolio.tools" },
+      { type: "text", value: "list.portfolio.pipeline" },
+      {
+        type: "link",
+        href: "https://marcelo3macedo.github.io/my-portfolio",
+        value: "action.access",
+      },
+      { type: "text", value: "list.portfolio.development" },
+      {
+        type: "link",
+        href: "https://github.com/marcelo3macedo/my-portfolio/pulls?q=is%3Apr+is%3Aclosed",
+        value: "action.access",
+      },
+    ],
+  },
+];
+
+export { highlights, education, projects };
