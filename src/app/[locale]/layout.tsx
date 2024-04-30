@@ -3,6 +3,7 @@ import "./globals.css";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import React from "react";
+import code from "@/assets/images/code.png";
 import { getFontClass } from "@/configs/fonts";
 import { listLocales } from "@/configs/locales";
 import { Props } from "@/interfaces/metadata";
@@ -21,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang={locale}>
       <head>
-        <link rel="icon" href="/code.png" sizes="any" />
+        <link rel="icon" href={code.src} sizes="any" />
       </head>
       <body className={fontClass}>
         <NextIntlClientProvider locale={locale} messages={messages}>
