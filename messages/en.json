@@ -60,6 +60,22 @@
       "keywords": "Clean Code|Unit Testing|Typescript|Hooks|Caching|Memory Usage|Docker|Kubernetes|Communication between services|LLMs|Stable Diffusion"
     }
   },
+  "projects": {
+    "title": "Projects",
+    "description": "A list of my favorite professional/personal projects that I have been working on.",
+    "list": {
+      "portfolio": {
+        "title": "Portfolio",
+        "intro": "The creation of this portfolio was done using good quality code, providing easy understanding.",
+        "tools": "The project was developed in Next.js, using the Tailwind CSS framework for page styling. For internationalization, the next-intl tool was used, applied to the project's routes.",
+        "pipeline": "It has a integration pipeline with GitHub, where when the main branch is updated, the code is automatically updated at:",
+        "development": "The development process followed the Scrum model, and all changes were logged through Pull Requests, detailed at:"
+      }
+    },
+    "action": {
+      "access": "Click to access"
+    }
+  },
   "locales": {
     "pt": "Portuguese",
     "en": "English"

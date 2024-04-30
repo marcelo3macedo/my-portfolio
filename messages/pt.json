@@ -60,6 +60,22 @@
       "keywords": "Código Limpo|Testes Unitários|Typescript|Hooks|Caching|Uso de Memória|Docker|Kubernetes|Comunicação entre serviços|LLMs|Stable Diffusion"
     }
   },
+  "projects": {
+    "title": "Projetos",
+    "description": "Uma lista dos meus preferidos projetos profissionais/pessoais no qual eu tenho trabalhado.",
+    "list": {
+      "portfolio": {
+        "title": "Portfólio",
+        "intro": "A criação desse portfólio foi realizada utilizando boa qualidade de código fornecendo um fácil entendimento.",
+        "tools": "O projeto foi desenvolvimento em NextJS, utilizando o framework tailwind para estilização da página. Para a internacionalização foi utilizado a ferramenta next-intl sendo aplicadas nas rotas da ferramenta.",
+        "pipeline": "Possui uma pipeline de integração com o Github, onde quando a ramificação principal é atualizada, automaticamente o código também será atualizado em:",
+        "development": "O processo de desenvolvimento seguiu o modelo Scrum e todas as alterações foram registradas através de Pull-Requests, sendo detalhadas em:"
+      }
+    },
+    "action": {
+      "access": "Clique para acessar"
+    }
+  },
   "locales": {
     "pt": "Português",
     "en": "Inglês"
