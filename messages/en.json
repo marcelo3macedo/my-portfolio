@@ -97,6 +97,19 @@
       "access": "Click to access"
     }
   },
+  "experience": {
+    "title": "Experience",
+    "description": "A list of the last places where I worked.",
+    "types": {
+      "company": "Company",
+      "position": "Position",
+      "year": "Year"
+    },
+    "role": {
+      "senior": "Senior Software Developer",
+      "full": "Full Stack Software Developer"
+    }
+  },
   "metadata": {
     "title": "Software Developer - Marcelo Alberico Macedo",
     "description": "As an experienced software enthusiast, I find joy in crafting innovative solutions. My focus lies in creating tools and systems that not only simplify tasks but also enhance efficiency and productivity."

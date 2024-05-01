@@ -125,4 +125,25 @@ const projects = [
   },
 ];
 
-export { highlights, education, projects };
+const companies = [
+  {
+    company: "Grupo New way",
+    city: "Bauru",
+    position: "role.senior",
+    year: "2020 - ",
+  },
+  {
+    company: "UPPERCASE Consultoria",
+    city: "Barra Bonita",
+    position: "role.full",
+    year: "2019 - 2020",
+  },
+  {
+    company: "Lab17340",
+    city: "Barra Bonita",
+    position: "role.full",
+    year: "2015 - 2019",
+  },
+];
+
+export { highlights, education, projects, companies };

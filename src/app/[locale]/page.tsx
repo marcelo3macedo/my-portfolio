@@ -1,5 +1,6 @@
 import { unstable_setRequestLocale } from "next-intl/server";
 import EducationContainer from "../components/educationContainer";
+import ExperienceContainer from "../components/experienceContainer";
 import HeroContainer from "../components/heroContainer";
 import HighlightContainer from "../components/highlightContainer";
 import ProjectsContainer from "../components/projectsContainer";
@@ -16,6 +17,7 @@ export default function Home({
       <HeroContainer />
       <HighlightContainer />
       <ProjectsContainer />
+      <ExperienceContainer />
       <EducationContainer />
     </main>
   );
